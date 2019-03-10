@@ -1,0 +1,26 @@
+{
+    "name": "ahmedwaleed/chuck-norris-jokes",
+    "description": "Create random chuck norris jokes",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "AhmadWaleed",
+            "email": "ahmed_waleed1@hotmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "AhmadWaleed\\ChuckNorrisJokes\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "AhmadWaleed\\ChuckNorrisJokes\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0"
+    }
+}
