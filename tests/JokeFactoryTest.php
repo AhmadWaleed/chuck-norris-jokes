@@ -2,8 +2,8 @@
 
 namespace AhmadWaleed\ChuckNorrisJokes\Tests;
 
-use AhmadWaleed\ChuckNorrisJokes\JokeFactory;
 use PHPUnit\Framework\TestCase;
+use AhmadWaleed\ChuckNorrisJokes\JokeFactory;
 
 class JokeFactoryTest extends TestCase
 {
@@ -11,7 +11,7 @@ class JokeFactoryTest extends TestCase
     public function it_returns_a_random_joke()
     {
         $factory = new JokeFactory([
-            'This is a joke'
+            'This is a joke',
         ]);
 
         $joke = $factory->getRandomJoke();
@@ -24,7 +24,7 @@ class JokeFactoryTest extends TestCase
     {
         $jokes = [
             'Chuck Norris counted to infinity... Twice.',
-            'Chuck Norris doesn\'t shower, he only takes blood baths.'
+            'Chuck Norris doesn\'t shower, he only takes blood baths.',
         ];
 
         $factory = new JokeFactory();
